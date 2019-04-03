@@ -13,6 +13,11 @@
 
 // code example for Window Binding
 
+function hello(name)
+{
+    return `Hello ${this.name}`
+}
+console.log(hello("Jose"))
 // Principle 2
 
 // code example for Implicit Binding
